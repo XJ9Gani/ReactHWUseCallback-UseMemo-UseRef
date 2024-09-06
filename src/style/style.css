@@ -1,0 +1,22 @@
+.input-ref:focus{
+   background-color: red;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px
+}
+.task{
+    list-style: none;
+    background-color: rgb(216, 110, 11);
+    width: 200px;
+    height: 100px;
+}
+.task-title{
+    display:block;
+    width: 70px;
+    margin: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
